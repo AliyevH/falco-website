@@ -20,7 +20,7 @@ This can be configured with multiple `-r` parameters in the right order, directl
 
 ## Rewriting Rules
 
-On the contratry, if `append` is set to `false` (default value), the whole object will be redefined. This can be used to empty a list, [override a macro](/docs/reference/rules/macros-override/) or even change a rule completely.
+On the contrary, if `append` is set to `false` (default value), the whole object will be redefined. This can be used to empty a list, [override a macro](/docs/reference/rules/macros-override/) or even change a rule completely.
 
 Take into account that override is complete, there will be no merge of previous and new content for that object. When redefining a rule, it will entirely replace the previous one, so if the new object defines fewer YAML map fields than required, Falco could return an error. 
 
